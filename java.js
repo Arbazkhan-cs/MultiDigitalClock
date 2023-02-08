@@ -3,7 +3,7 @@ let caption = document.querySelector(".caption");
 let time_zone;
 let ringtoon = new Audio("/Clock/beep_beep.mp3");
 // =============================================Clock========================================
-const clock = ()=>{
+const clock = ()=>{ 
     // Time
     time();
 
