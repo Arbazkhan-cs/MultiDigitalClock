@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Digital Clock &CircleDot;</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="caption-head">
+            <h1 class="caption">Clock</h1>
+        </div>
+        <div class="clock">
+            <span class="time"></span>
+            <span class="first-leg"></span>
+            <span class="second-leg"></span>
+            <span class="top-line"></span>
+            <span class="am-pm"></span>
+            <span class="day"></span>
+        </div>
+
+        <div class="menu">
+            <div class="setting">
+                <img src="/Clock/img/setting.png" alt="setting" class="size" title="Setting">
+            </div>
+
+            <li style="--i:0;">
+                <img src="/Clock/img/alarm-icon.png" class="size" title="Alarm">
+            </li>
+
+            <li style="--i:1;">
+                <img src="/Clock/img/clockicon.webp" class="size" title="Time">
+            </li>
+
+            <li style="--i:2;">
+                <img src="/Clock/img/timmer icon3.png" class="size" title="Stop Watch">
+            </li>
+
+            <li style="--i:3;">
+                <img src="/Clock/img/calender.png" class="size" title="Date">
+            </li>
+
+            <li style="--i:4;">
+                <img src="/Clock/img/time zone.png" class="size" title="Time Zone">
+            </li>
+        </div>
+
+        <div class="options">
+            <select id="Hour" class="timer">
+                <option hidden>0</option>
+            </select>
+            <select id="Minute" class="timer">
+                <option hidden>0</option>
+            </select>
+            <select id="Second" class="timer">
+                <option hidden>0</option>
+            </select>
+        </div>
+    </div>
+
+    <script src="/Clock/java.js"></script>
+</body>
+
+</html>
