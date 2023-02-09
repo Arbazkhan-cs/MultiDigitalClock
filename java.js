@@ -259,7 +259,7 @@ First_li.onclick = ()=>{
         let h = date.getHours();
         let m = date.getMinutes();
         let s = date.getSeconds();
-        let t = h+" : "+m+" : "+s
+        let t = h+":"+m+":"+s
         if(alerm_time == t){
             ringtoon.play()
             ringtoon.loop = true
