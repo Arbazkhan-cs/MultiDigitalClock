@@ -263,8 +263,8 @@ First_li.onclick = ()=>{
         if(alerm_time == t){
             ringtoon.play()
             ringtoon.loop = true
-            let paused = alert("ringing...")
-            if(paused == undefined)
+            let paused = confirm("Ringing....")
+            if(paused == true || paused == false)
                 ringtoon.pause();
         }
     }
