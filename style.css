@@ -176,9 +176,12 @@
     .menu{
         top: 35%;
     }
+    .timer{
+        top: 67%;
+    }
     .clock{
-        height: 15%;
-        width: 65%;
+        height: 14%;
+        width: 60%;
         font-size: 40px;
     }
 }
