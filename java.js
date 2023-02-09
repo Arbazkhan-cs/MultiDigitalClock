@@ -338,8 +338,8 @@ Third_li.onclick = ()=>{
     }
     started.onclick = ()=>{
         container = document.querySelector(".clock");
-        container.style.height = "20%";
-        container.style.width = "17%";
+//         container.style.height = "20%";
+//         container.style.width = "17%";
 
         if(started.innerHTML == "Stop"){
             clearInterval(interval)
