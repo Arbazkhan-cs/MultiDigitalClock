@@ -177,11 +177,27 @@
         top: 35%;
     }
     .timer{
-        top: 67%;
+        top: 72%;
+        right: 22%;
+    }
+    #Minute{
+        right: 43.5%;
+    }
+    #Hour{
+        right: 65.7%;
     }
     .clock{
         height: 14%;
         width: 60%;
         font-size: 40px;
+    }
+    .top-line{
+        width: 100px;
+    }
+    .first-leg{
+        width: 50px;
+    }
+    .second-leg{
+        width: 50px;
     }
 }
