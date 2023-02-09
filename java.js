@@ -379,6 +379,8 @@ Third_li.onclick = ()=>{
         secondss = 0;
         minutess = 0;
         timess.innerHTML = `0${minutess}`+" : "+`0${secondss}`+" : "+`0${milliSecondss}`;
+        started.innerHTML = "Start";
+
     }
 }
 
