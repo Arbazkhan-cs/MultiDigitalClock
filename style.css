@@ -94,6 +94,11 @@
     height: 200px;
     width: 200px;
 }
+@media screen and (max-width: 524px){
+    .menu{
+        top: 35%;
+    }
+}
 .menu li{
     position: absolute;
     list-style: none;
